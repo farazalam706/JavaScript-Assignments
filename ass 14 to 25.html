@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // // ---------------Q1-------------
+        // var x = [];
+
+        // // ---------------Q2-------------
+        // var y = {};
+        // // ---------------Q3-------------
+        // var objArray = ["Faraz", "Alam", "Ammad", "Ali"];
+
+        // // ---------------Q4-------------
+        // var numArray = ["1", "2", "3", "4"];
+
+        // // ---------------Q5-------------
+        // var bolArray = [true, false];
+
+        // // ---------------Q6-------------
+        // var mixArray = [1, false, "Faraz"];
+
+        // ---------------Q7-------------
+        // var array = ["SSC", "HSC", "BCS", "BS ", "BCOM", "MS ", "M.Phil", "PhD"];
+        // document.write("Qualifications: <br>");
+        // for (let i = 0; i < array.length; i++) {
+        //     document.write(`${i+1}) ${array[i]} <br>`);
+
+        // }
+
+
+        // ---------------Q8-------------
+        /*
+         var students = [];
+            var obtMarks = [];
+            var percentage = [];
+            var totalMarks = 850;
+            for (let i = 0; i < 3; i++) {
+                students.push(prompt(`Enter Student ${i + 1} name:`));
+                obtMarks.push(prompt(`Enter Marks of ${students[i]}: `));
+                percentage.push(`${obtMarks[i] / totalMarks * 100}: `);
+            }
+            for (let i = 0; i < 3; i++) {
+                document.write(`Score of ${students[i]} is ${obtMarks[i]}. Percentage: ${percentage[i]}% <br>`);
+            }
+            */
+
+        // ---------------Q10-------------
+
+        // var arr = [];
+        // for (let i = 0; i < 5; i++) {
+        //     arr.push(prompt("Enter marks your marks in subject " + (i + 1)));
+        // }
+        // console.log(arr);
+        // var sorted = arr.sort();
+        // console.log(sorted);
+
+
+        // ---------------Q12-------------
+
+        // var arr = ["This","is","my","cat"];
+
+        // document.write(arr.join);
+
+        // ---------------Q13-------------
+
+        /*
+             var arr = [];
+             for (let i = 0; i < 5; i++) {
+                 arr.push(prompt("Enter objects:"));
+             }
+             for (let i = 0; i < 5; i++) {
+                 document.write(arr[i] + "<br>");
+             }
+     
+     
+             */
+
+        // ---------------Q14-------------
+
+
+
+        // var phoneQuantity = +prompt(`How many caategories of phones?`)
+        // var phone = [];
+        // for (let i = 0; i < phoneQuantity; i++) {
+        //     phone.push(prompt(`Phone ${i + 1} name!`));
+
+        // }
+        // document.write(phone);
+
+        // ---------------Q9f & g-------------
+
+        // color = ["Red", "Yellow", "Orange", "Brown"];
+        // color.splice(prompt(`At which index you want to add color?`), prompt(`How many colors you want to delete?`), prompt(`Which color you want to add?`));
+        // for (let i = 0; i < color.length; i++) {
+        //     console.log(`${color[i]} <br>`);
+        // }
+
+        // ---------------Q11-------------
+
+        // var cities = ["Karachi", "Peshawar", "Lahore", "Islamabad", "Quetta"];
+        // selectedCities = cities.slice(1, 3)
+        // console.log(selectedCities);
+
+        // ---------------Q12-------------
+
+        //     var cities = ["Karachi", "Peshawar", "Lahore", "Islamabad", "Quetta"];
+        //    document.write(cities.join());
+
+
+        // var arr = [];
+        // for (let i = 0; i < 5; i++) {
+        //     arr.push(prompt("Enter objects:"));
+        // }
+        // for (let i = 0; i < 5; i++) {
+        //     document.write(arr[-i] + "<br>");
+        // }
+
+
+        // ----------ARRAYS AND LOOP--------------
+
+
+        // ---------------Q1-------------
+
+        // var arr = [[], [], [], []];
+
+        // ---------------Q2-------------
+
+        // var arr = [[0, 1, 2, 3], [1, 0, 1, 2], [2, 1, 0, 1]];
+        // console.log(arr);
+
+        // ---------------Q3-------------
+
+        // for (let i = 0; i < 10; i++) {
+        //    document.write(`${i + 1} <br>`);
+        // }
+
+        // ---------------Q4-------------
+
+        // number = +prompt(`Enter a number to show it multiplication table:`);
+        // length = +prompt(`What should be the length of the table?`);
+        // for (let i = 0; i < length; i++) {
+        //     document.write(`${number} x ${i + 1} = ${number * (i + 1)} <br>`);
+        // }
+
+        // ---------------Q5-------------
+
+        // var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+        // for (let i = 0; i < fruits.length; i++) {
+        //     console.log(`${fruits[i]}`);
+        //     console.log(`Element at index ${i} is ${fruits[i]}`);
+
+        // }
+
+
+
+        // ---------------Q6-------------
+
+        // for (let i = 0; i < 15; i++) {
+        //     console.log(i+1);
+        // }
+
+        // for (let i = 15; i > 0; i--) {
+        //     console.log(i);
+        // }
+
+        // for (let i = 0; i <= 20; i++) {
+        //     if (i % 2 == 0) {
+        //         console.log(i);
+        //     }
+        // }
+
+
+        // for (let i = 0; i <= 20; i++) {
+        //     if (i % 2 != 0) {
+        //         console.log(i);
+        //     }
+        // }
+
+        // for (let i = 2; i <= 20; i++) {
+        //     if (i % 2 == 0) {
+        //         console.log(i+"k");
+        //     }
+        // }
+
+        // ---------------Q7-------------
+
+        // var items = ["cake", "apple pie", "cookie", "chips", "patties"];
+        // searchItems = prompt("Welcome to ABC bakery. What do you want to order Sir/Ma'am?");
+        // for (let i = 0; i < items.length; i++) {
+        //     if (searchItems == items[i]) {
+        //         alert(`${items[i]} is available at index ${i} in our bakery.`);
+        //         break;
+        //     }
+        //     else {
+        //         alert(`We are sorry ${searchItems} isn't available in our bakery!`);
+        //     }
+        // }
+
+
+
+        // Array.max = function (array) {
+        //     return Math.max.apply(Math, array);
+        // };
+        // console.log(array);
+
+        // var array = [24, 53, 78, 91, 12];
+        // sortedArray = array.sort();
+        // console.log(sortedArray[array.length-1]);
+
+        // // ---------------Q9-------------
+
+        // var array = [24, 53, 78, 91, 12];
+        // sortedArray = array.sort();
+        // console.log(sortedArray[0]);
+
+        //---------------Q10-------------
+
+        // for (let i = 0; i < 20; i++) {
+        //     console.log(5 * (i + 1));
+        // }
+
+        //---------------STRING METHODS-------------
+
+        //---------------Q1-------------
+
+        // fullName = [];
+        // for (let i = 0; i < 2; i++) {
+        //     fullName.push(prompt("Enter Your fname & lname."));
+        // }
+        // var joined = fullName.join();
+        // alert(`Hello ${joined}`);
+
+        //---------------Q2-------------
+
+        // favPhone = prompt("Fav phone?");
+        // console.log(`My favoite phone is:${favPhone}.gjv length of string is: ${favPhone.length} `);
+
+        //---------------Q3-------------
+
+        // var string = "Pakistani";
+        // for (let i = 0; i < string.length; i++) {
+        //     if (string[i] == "n"){
+        //         console.log(i);
+        //     }
+        // }
+
+        //---------------Q4-------------
+
+        //wrong
+
+        // var string = "Hello World"; 
+        // for (let i = 0; i < string.length; i++) {
+        //     if (string[i] == "l"){
+        //         console.log(i);
+        //     }
+        // }
+
+        //wrong
+
+        // var str = "geeks"
+        // x = "e";
+        // function findLastIndex(str, x) {
+        //     let index = -1;
+        //     for (let i = 0; i < str.length; i++)
+        //         if (str[i] == x)
+        //             index = i;
+        //     return index;
+        // }
+        // findLastIndex("geeks", "e")
+
+        //correct
+
+        // var string = "Hello World";
+        // for (var i = string.length; i > 0; i--) {
+        //     if (string[i] == "l") {
+        //         console.log(i);
+        //         break;
+        //     }
+
+        // }
+
+
+
+        //---------------Q5-------------
+
+        // var string = "Pakistani";
+        // console.log(string[3]);
+
+        //---------------Q6-------------
+
+        // var name = ["Faraz", "Alam"];
+        // var name1 = name.join();
+        // document.write(name1);
+
+        //---------------Q7-------------
+
+        // var city = "Hyderabad";
+        // document.write(city.replace("Hyder", "Islam"));
+
+
+        //---------------Q8-------------
+
+
+        // var message = "“Ali and Sami are best friends.They play cricket and football together.”";
+        // var message2 = message.replaceAll("and", "&");
+        // console.log(message2);
+
+        //---------------Q9-------------
+
+        // var value = "472";
+        // console.log(typeof value);
+
+        // value = parseInt(value);
+        // console.log(typeof value);
+
+        //---------------Q10-------------
+
+        // var input = prompt();
+        // var result = input.toUpperCase();
+        // console.log(result);
+        // document.write(result);
+
+        //---------------Q11-------------
+        // var array = [];
+        // arr = [];
+        // var input = prompt();
+        // var result = input.toLowerCase();
+        // for (var i = 0; i < result.length; i++) {
+        //     array.push(result[i]);
+        // }
+        // arr.push(array[0].toUpperCase());
+        // for (var i = 1; i < array.length;i++){
+        //     arr.push(array[i]);
+        // }
+        // var titleCase=arr.toString();
+        // console.log(titleCase);
+        // document.write(titleCase);
+        // console.log(typeof titleCase);
+
+
+        // var input = prompt();
+        // let result = input.charAt(0).toUpperCase() + input.slice(1).toLowerCase();
+        // console.log(result);
+        // document.write(result);
+
+        //---------------Q12-------------
+
+        // var num = 35.36;
+        // var num2 = num.toString();
+        // console.log(typeof num2);
+        // var num3 = num2.replaceAll(".", "")
+        // console.log(num3);
+
+        //---------------Q13-------------
+
+        // var userName = "f@raz";
+        // for (i = 0; i < userName.length; i++) {
+        //     if ((userName.charCodeAt(i) == 33 || userName.charCodeAt(i) == 44)  || (userName.charCodeAt(i) == 44 || userName.charCodeAt(i) == 64)) {
+        //         alert("Please enter a valid username");
+        //     }
+        // }
+
+        // var name = prompt();
+        // for (i = 0; i < name.length; i++) {
+        //     if (name[i] == "@") {
+        //         alert("Please enter a valid username");
+        //         break;
+        //     }
+        //     if (name[i] == "!") {
+        //         alert("Please enter a valid username");
+        //         break;
+        //     }
+        //     if (name[i] == ".") {
+        //         alert("Please enter a valid username");
+        //         break;
+        //     }
+        //     if (name[i] == ",") {
+        //         alert("Please enter a valid username");
+        //         break;
+        //     }
+        // }
+
+
+        //---------------Q14-------------
+
+        // var arr = ["cake", "apple", "cookie", "chips", "petties", "apple pie"];
+        // var input = prompt("Welcome to ABC Bakery.What do you want to order Sir/Ma'am");
+        // var input2 = input.toLowerCase();
+        // for (let i = 0; i < input.length; i++) {
+        //     if (arr[i] = input2) {
+        //         alert("${arr[i]} is available at index ${i} in our bakery.");
+        //         break;
+        //     }
+        //     else {
+        //         alert("We're sorry ${input} is not available in our bakery.");
+        //         break;
+        //     }
+        // }
+
+        //---------------Q16-------------
+
+        // var uni = "University of Karachi";
+        // var uni2 = uni.split("");
+        // for (let i = 0; i < uni2.length; i++) {
+        //     console.log(uni2[i]);
+        // }
+
+
+        //---------------Q17-------------
+        var input = "Pakistan";
+        console.log(input[input.length-1]);
+
+var string ="the quick brown fox jumps over the lazy dog."
+var count = (string.match(/the/g) || []).length;
+console.log(count);
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <script>
+        // var a =alert("Hello welcome to F.A's official website!")
+        //  var a =alert("Error! Please enter a valid password. ")
+        // var a =alert("Welcome to JS Land... \n Happy Coding! ")
+        // var a =alert("Welcome to JS Land...")
+        // var a =alert("Happy Coding! \n Prevent this page from adding additional dialogs.")
+        // console.log("Hello... \n I can run JS through my JS console.")
+        // alert("Hello this is my HTML & CSS project.")
+        // var username = "Faraz_Alam";
+        // FullName = "AmmadAli";
+        // myName = FullName;
+        // document.write("My name is" + myName);
+        // let message="Hello Word";
+        // const a = alert(message);
+        // var a = "FarazAlam";
+        // var b= "30 years old";
+        // var c = "Certified ReactJS Developer";
+        // var d= alert(a)
+        // if(a){
+        //     alert(b)
+        // }
+        // if(b){
+        //     alert(c)
+        // }
+        // var a = "P\nPi\nPiz\nPizz\nPizza"
+        // alert(a)
+        // var email = "farazalam705@gmail.com"
+        // alert("My email address is " + email)
+
+        // var a ="“A smarter way to learn JavaScript”."
+        // alert("I'am trying to learn from the book: " + a)
+        // document.write("Yeah,I can write HTML content through JS.")
+        // var a="“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”"
+        // alert(a)
+
+        // let age =15;
+        // alert("I am" +age+" years old.")
+
+        // let number =14;
+        // alert("You have visited this website " + number+" times..")
+
+        // let birthYear=2005;
+        // document.write("My birth year is " + birthYear +".   ")
+        // for(let i =1;i<=10;i++){
+        //     document.write("4 x"+ i +"=" + 4*i + "<br><br>");
+        // }
+        // var a=prompt("What is your  name?")
+        // var b=prompt("What is your productTitle?")
+        // var c=prompt("How many products you want to order?")
+        // document.write(a+ " ordered "+c+" " +b+ " on Amazon.")
+        // var a = "Faraz" , b="Ammad" , c="Ali"
+        // console.log(a+b+c)
+
+        // // LEGAL Variables
+        // var faraz = "ALAM";
+        // var faraz1 = "Alam"
+        // var faraz_1 = "Alam"
+        // var FarazAlam = "Alam"
+        // var faraz1alam = "Alam"
+
+        // // ILLEGAL Variables Names
+
+        // var faraz-alam="Faraz"
+        // var faraz.alam = "Faraz"
+        // var 12farazalam = "Faraz"
+        // var 12_farazalam = "Faraz"
+        // var.FarazAlam ="Faraz"
+        //   document.write("<h1>“Rules for naming JS variables”</h1> <br>");
+        //     document.write("Variable names can only contain number,$ and_. For Example: $my_1stVariable <br>");
+        //     document.write("Variables must begin with a letter,$ or_. For example: $name, _name or name <br>");
+        //     document.write("variable names are case sensitve <br>");
+        //     document.write("Variable names should not be JS Keywords <br>");
+
+        // -----------Addition---------------
+
+        // var a = parseInt(prompt("Enter first number: "));
+        // var b = parseInt(prompt("Enter second number: "));
+        // var c = a + b;
+        // document.write("Sum of " + a + " and " + b + " is "+ c);
+
+        // -----------Subtraction---------
+
+        // var a = parseInt(prompt("Enter first number: "));
+        // var b = parseInt(prompt("Enter second number: "));
+        // var c = a - b;
+        // document.write("Subtraction of " + b + " from " + a + " is "+ c);
+
+        // -------------Multiplication-----------//
+
+        // var a = parseInt(prompt("Enter first number: "));
+        // var b = parseInt(prompt("Enter second number: "));
+        // var c = a * b;
+        // document.write("Multiplication of " + a + " and " + b + " is " + c);
+
+        // ----------Division------------
+
+        // var a = parseInt(prompt("Enter first number: "));
+        // var b = parseInt(prompt("Enter second number: "));
+        // var c = a / b;
+        // document.write("Division of " + a + " by " + b + " is " + c);
+
+
+        // ----------------Q3-----------------
+
+        // var a =
+        //   document.write("Value after variable declaration is  " + a + "<br>");
+        // var a = 5;
+        // document.write("Initial value is: " + a + "<br>");
+        // a++;
+        // document.write("Value after increament is: " + a + "<br>");
+        // a = a + 7;
+        // document.write("Value after addition is: " + a + "<br>");
+        // a--;
+        // document.write("Value after  decrement is: " + a + "<br>");
+        // a = a % 3;
+        // document.write("The remainder is :  " + a);
+
+        // -----------Q4----------
+
+        // var a = alert("Cost of one movie ticket is 600 PKR.");
+        // if (a) {
+        //   alert("Invalid Syntax")
+        // }
+        // else
+        // var b = prompt("How many Tickets you want to buy?");
+        // c = 600;
+        // d = b * c;
+        // document.write("Total cost to buy " + b + " tickets to a movie is " + d + " PKR.");
+
+        // -------Q5-------//
+
+        // var a = parseInt(prompt("Enter a number whose table you want to print: "));
+        // for (let i = 1; i <= 10; i++) {
+        //   document.write(a + " x " + i + " = " + a * i + "<br> <br>");
+        // }
+
+        // -----Q6-------------//
+
+        // document.write("What do u want to do? <br>");
+        // document.write("1: <br> Want to change C in T? <br> 2: <br> Want to change T in C?  ");
+
+        //   var x = parseInt(prompt("What do u want to do? \n 1:Want to change C in F. \n 2:Want to change F in C."));
+        //   if (x == 1) {
+        //     var C = parseInt(prompt("Enter a temperature in C: "));
+        //     var F = (C * 9 / 5) + 32;
+        //     document.write(C + "C in Fahrenheit will be equal to: " + F + "F" + "<br>");
+        //   }
+        //   else{
+        //     var F = parseInt(prompt("Enter a temperature in F: "));
+        //   var C = (F - 32) * 5 / 9;
+        //   document.write(F + "F in Celsius will be equal to: " + C + "C");
+        // }
+
+
+        // let a = alert("Cost of one movie ticket is 600 PKR.");
+        // if (a) {
+        //   let b = parseInt(prompt("How many Tickets you want to buy?"));
+        //   c = 600;
+        //   d = b * c;
+        //   document.write("Total cost to buy " + b + " tickets to a movie is " + d + " PKR.");
+        // }
+        // else {
+        //   alert("Invalid Syntax")
+
+        // }
+
+        // ----------Q7--------------
+
+        // var a = +prompt("Price of item 1?");
+        // var b = +prompt("Price of item 2?");
+        // var c = +prompt("Ordered quantity of item 1?");
+        // var d = +prompt("Ordered quantity of item 2?");
+        // var e = a * c + b * d;
+        // document.write("Total cost of your order is " + e );
+
+        // ---------Q8------------//
+
+        // var a = +prompt("Enter Total Marks:");
+        // var b = +prompt("Enter obtained Marks:");
+        // var c = b / a * 100;
+        // document.write("percentage: " + c);
+
+
+
+        //     var a = +prompt("Enter your operation: \n 1:$ to PKR. \n 2:PKR to $. \n 3:Riyal to PKR. \n 4:PKR to Riyal. ");
+        // if(a==1){
+        //     var dollar = +prompt("Enter the amount of $ to Convert in PKR: ");
+        //     var dollar_PKR = dollar * 174.6;
+        //     alert(dollar + "$ = " + dollar_PKR + "PKR.");
+        // }
+        // if (a==2){
+        //     var PKR = +prompt("Enter the amount of PKR to Convert in $: ");
+        //     var PKR_dollar = PKR / 174.6;
+        //     alert(PKR + "PKR = " + PKR_dollar + "$.");
+
+        // }
+        // if(a==3){
+        //     var Riyal = +prompt("Enter the amount of Riyal to Convert in PKR: ");
+        //     var Riyal_PKR = Riyal * 46.55;
+        //     alert(Riyal + "Riyal = " + Riyal_PKR + "PKR.");
+        // }
+        // if(a==4){
+        //     var PKR = +prompt("Enter the amount of PKR to Convert in Riyal: ");
+        //     var PKR_Riyal = PKR / 46.55;
+        //     alert(PKR + "PKR = " + PKR_Riyal + "Riyal.");
+        // }
+
+        //-----------Q9------------//
+
+        // var dollar = +prompt("Enter the amount in $: ");
+        // var Riyal = +prompt("Enter the amount in Riyal: ");
+        // var dollar_PKR = dollar * 174.6;
+        // var Riyal_PKR = Riyal * 46.55;
+        // var total = dollar_PKR + Riyal_PKR;
+        // alert("Total Currency in PKR: " + total + ".");
+
+
+        //-----------Q10------------//
+
+        // var a = 2;
+        // document.write(((a + 5) * 10) / 2);
+
+        // -----------Q11-------------//
+
+        // var CurrentYear = +prompt("Current Year: ");
+        // var BirthYear = +prompt("Birth Year: ")
+        // var age = CurrentYear - BirthYear;
+
+        // document.write("<h1>Age Calculator</h1> <br> ");
+        // document.write("Current Year: " + CurrentYear + "<br>");
+        // document.write("Birth Year: " + BirthYear + "<br>");
+        // document.write("Your age is: " + age);
+
+
+        // -----------Q12-------------//
+
+        // var radius = +prompt("Radius of circle?");
+        // var Circle_Circumference = 2 * 3.14 * radius;
+        // document.write("Circumference of a Circle is: " + Circle_Circumference + "<br>");
+
+        // var area = 3.14 * radius ** 2
+        // document.write("Area of a Circle is: " + area);
+
+        // -----------Q13-------------//
+
+        // document.write("<h1>The Lifetime Supply Calculator</h1>");
+        // var fav_snack = "Gala";
+        // current_age = 22;
+        // max_age = 60;
+        // estimated_amount_perday = 2;
+        // remaining_age = max_age - current_age;
+        // total_days = remaining_age * 165;
+        // total_snack_eat = total_days * estimated_amount_perday;
+        // document.write("You'll need " + total_snack_eat + " " + fav_snack + " to last you until the ripe old age of " + max_age);
+
+        // -----------Chapter#06-------------//
+
+        // var a = +prompt("Eter a number: ")
+        // document.write("The value of a is: " + a + "<br>");
+        // ++a;
+        // document.write("The value of ++a is: " + a);
+
+        // ---------Q2---------- 
+
+        // var a = 2, b = 1;
+        // var result = --a - --b + ++b + b-- ; 
+        // document.write(result);
+
+        // --a;
+        // var x = --a - --b;
+        // var x = --a - --b + ++b;
+        // var x = --a - --b + ++b + b--;
+
+        // document.write(x);
+
+        // ---------Q3---------- 
+
+        // var x = +prompt("What is your name?");
+        // document.write("Hello Mr." + x + ". How you doing?")
+
+        // ---------Q5---------- 
+
+        // var number = +prompt("Enter a number: ");
+        // if (number) {
+        //   for (let i = 1; i <= 10; i++) {
+        //     document.write(number + " x " + i + " = " + number * i + "<br>");
+        //   }
+        // }
+        // else {
+        //   for (let i = 1; i <= 10; i++) {
+        //     document.write(5 + " x " + i + " = " + 5 * i + "<br>");
+        //   }
+        // }
+
+
+        // ---------Q6---------- 
+
+        // var subject1 = prompt("Enter the name of your first subject.");
+        // var subject2 = prompt("Enter the name of your second subject.")
+        // var subject3 = prompt("Enter the name of your third subject.")
+        // var total_marks = 300;
+        // var subject1_marks = +prompt("Enter obtained marks in " + subject1);
+        // var subject2_marks = +prompt("Enter obtained marks in " + subject2);
+        // var subject3_marks = +prompt("Enter obtained marks in " + subject3);
+        // document.write("<p><tr><td>Subject </td><td>TotalMarks </td><td>ObtainedMarks </td><td>Percentage</td></tr></p>");
+        // document.write("<p><tr><td> " + subject1 + " </td><td>100 </td><td> " + subject1_marks + " </td><td>" + subject1_marks + "%</td></tr></p>");
+        // document.write("<p><tr><td> " + subject2 + " </td><td>100 </td><td> " + subject2_marks + " </td><td>" + subject2_marks + "%</td></tr></p>");
+        // document.write("<p><tr><td> " + subject3 + " </td><td>100 </td><td>  " + subject3_marks + " </td><td>" + subject3_marks + "%</td></tr></p>");
+        // var total_obtained_marks = subject1_marks + subject2_marks + subject3_marks;
+        // var percentage = total_obtained_marks / total_marks * 100;
+        // document.write("<p><tr><td> " + 300 + " </td><td>" + total_obtained_marks + "</td><td>  " + percentage + "</tr></p>");
+
+        //-------------------------------------------------------------------
+        // var myArray = new Array();
+        // myArray[0] = 1;
+        // myArray[1] = 2.218;
+        // myArray[2] = 33;
+        // myArray[3] = 114.94;
+        // myArray[4] = 5;
+        // myArray[5] = 33;
+        // myArray[6] = 114.980;
+        // myArray[7] = 5;
+
+        // document.write("<tr><td style='width: 100px; color: red;'>Col Head 1</td>");
+        // document.write("<td style='width: 100px; color: red; text-align: right;'>Col Head 2</td>");
+        // document.write("<td style='width: 100px; color: red; text-align: right;'>Col Head 3</td></tr>");
+
+        // ---------USER INPUT & CONDITIONAL STATEMENT---------- Assignment # 9-10
+
+
+        //---------------Q1--------------------
+
+        // var city = prompt("Enter a city name: ");
+        // var city1 = "karachi"
+        // if (city = city1) {
+        //   alert("Welcome to city of Darkness.");
+        // }
+        // else {
+        //   alert("Welcome to city of Lights.");
+
+        // }
+
+        //---------------Q2--------------------
+
+        // var gender = prompt("Who are you male or female?");
+        // gender1 = "male";
+        // gender2 = "female";
+
+        // if (gender = gender1) {
+        //   alert("Good Morning Sir!")
+        // }
+        // if (gender = gender2) {
+        //   alert("Good Morning Ma'am!")
+        // }
+
+        //---------------Q3--------------------
+
+        // var color = prompt("Input color of road traffic signal:");
+
+        // if (color = "red") {
+        //   alert("Must Stop!")
+        // }
+        // if (color = "yellow") {
+        //   alert("Ready to move!")
+        // }
+        // if (color = "green") {
+        //   alert("Move now!")
+        // }
+
+
+        //---------------Q4--------------------
+
+        // var fuel = prompt("Input remaining fuel in car: ");
+        // if (fuel < 0.25){
+        //   alert("“Please refill the fuel in your car”")
+        // }
+        // else{
+        //   alert("“You don't need to refill the fuel in your car”")
+
+        // }
+
+
+
+        // var subjectQuantity = +prompt("How many subjects?");
+        // const subjects = [];
+        // const marks = {};
+
+        // for (let i = 0; i < subjectQuantity; i++) {
+        //     subjects.push(prompt(`What is the name of subject ${i + 1}?`));
+        //     // console.log(subjects);
+        //   }
+
+        //   let obValue = 0;
+
+        //   for (let i = 0; i < subjectQuantity; i++) {
+        //     let inputValue = +prompt(`Enter marks of ${subjects[i]} :`);
+        //     marks[subjects[i]] = inputValue
+        //     obValue = obValue + inputValue;
+        //   }
+        //   // console.log(marks);
+
+        //   console.log(obValue);
+
+
+
+
+        // const cars = {
+        //   "corolla":  "red",
+        //   "mehran":  "white",
+        //   "cultus":  "green",
+        //   "aqua":  "blue",
+        // }
+
+        // const arrr = ["corolla", "mehran", "cultus", "aqua"];
+        // console.log(cars['cultus']);
+        // console.log(arrr[3]);
+
+
+        // const carKeys = Object.keys(cars);
+        // console.log('Object.keys(cars)' ,carKeys );
+
+
+        // [
+        //   {
+        //     "maths": 80,
+        //     "chem": 49,
+        //     "phy": 79,
+        //   }
+        // ]
+
+
+
+        //---------------Q5--------------------
+
+        // var a = 4;
+        // if (++a === 5) {
+        //   alert("given condition for variable a is true");
+        // }
+
+        //     var b = 82;
+        // if (b++ === 83){
+        // alert("given condition for variable b is true");
+        // }
+
+        // var c = 12;
+        // if (c++ === 13) {
+        //   alert("condition 1 is true");
+        // }
+        // if (c === 13) {
+        //   alert("condition 2 is true");
+        // }
+
+        // if (++c < 14) {
+        //   alert("condition 3 is true");
+        // }
+        // if (c === 14) {
+        //   alert("condition 4 is true");
+        // }
+
+        // var materialCost = 20000;
+        // var laborCost = 2000;
+        // var totalCost = materialCost + laborCost;
+        // if (totalCost === laborCost + materialCost) {
+        //     alert("The cost equals");
+        // }
+
+        // if (true) {
+        //     alert("True");
+        // }
+        // if (false) {
+        //     alert("False");
+        // }
+
+        //---------------Q6--------------------
+
+        // var obtainedMarks = 0;
+        // var totalMarks = 600;
+        // for (let i = 1; i <= 6; i++) {
+        //     var marks = +prompt(`Marks in subject ${i}`);
+        //     obtainedMarks = obtainedMarks + marks;
+        // }
+        // var percentage = obtainedMarks / totalMarks * 100;
+        // document.write(`TotalMarks: 300 <br>`);
+        // document.write(`Marks Obtained: ${obtainedMarks} <br>`);
+        // document.write(`Percentage: ${percentage} <br>`);
+        // if (percentage >= 80) {
+        //     document.write(`Grade: A-One <br>`);
+        //     document.write(`Excellent <br>`);
+
+        // }
+        // if (percentage >= 70 && percentage <= 79) {
+        //     document.write(`Grade: A <br>`);
+        //     document.write(`Good <br>`);
+
+        // }
+        // if (percentage >= 60 && percentage <= 69) {
+        //     document.write(`Grade: B <br>`);
+        //     document.write(`You need to improve. <br>`);
+
+        // }
+        // if (percentage < 60) {
+        //     document.write(`Grade: Fail <br>`);
+        //     document.write(`Sorry! <br>`);
+
+        // }
+
+        //---------------Q7--------------------
+
+        // var randomVariable = 4;
+        // guess = +prompt("Guess a number from 1 to 10!");
+        // if (guess == randomVariable) {
+        //     console.log(`“Bingo! Correct answer”.`);
+        // }
+        // if (guess == randomVariable + 1) {
+        //     console.log(`“Close enough to the correct answer”`);
+        // }
+
+        //---------------Q8--------------------
+
+        // var x = 3;
+        // if (x % 3 == 0) {
+        //     alert("Divisible by 3!")
+        // }
+
+        //---------------Q9--------------------
+
+        // var x = +prompt("Enter a number");
+        // if (x % 2 == 0) {
+        //     alert("Evern Number");
+
+        // } else {
+        //     alert("Odd Number")
+
+        // }
+        //---------------Q10--------------------
+
+
+        // var temp = +prompt("Enter  temperature.")
+        // if (temp > 40) {
+        //     document.write("“It is too hot outside.”");
+        // }
+        // if (temp > 30 && temp <= 40) {
+        //     document.write("“The Weather today is Normal.”");
+        // }
+        // if (temp > 20 && temp <= 30) {
+        //     document.write("“Today’s Weather is cool.”");
+        // }
+        // if (temp > 10 && temp <= 20) {
+        //     document.write(" “OMG! Today’s weather is so Cool.”");
+        // }
+
+        //---------------Q11--------------------
+
+        // var x = +prompt("Enter first number.");
+        // var y = +prompt("Enter first number.");
+        // var operation = prompt("1: + \n 2: - \n 3: *\n 4: / \n 5: % ");
+        // if (operation == 1) {
+        //     var ans = x + y;
+        //     document.write(`Summation of your number is ${ans}`);
+        // }
+        // if (operation == 2) {
+        //     var ans = x - y;
+        //     document.write(`Subtraction of your number is ${ans}`);
+        // }
+        // if (operation == 3) {
+        //     var ans = x * y;
+        //     document.write(`Multiplication of your number is ${ans}`);
+        // }
+        // if (operation == 4) {
+        //     var ans = x / y;
+        //     document.write(`Division of your number is ${ans}`);
+        // }
+        // if (operation == 5) {
+        //     var ans = x % y;
+        //     document.write(`Remainder of your number is ${ans}`);
+        // }
+
+        // -- -- -- -- -- -- -- -- - IF… ELSE & ELSE IF STATEMENT,
+        //     TESTING SET OF CONDITIONS-- -- -- -- -- -- -- -- -- -
+
+        //---------------Q1--------------------
+
+        // var x = prompt("Enter a character or number");
+        // if (x >= "A" && x <= "Z") {
+        //     alert("Upper Case");
+        // } else if (x >= "a" && x <= "z") {
+        //     alert("Lower Case");
+        // } else {
+        //     alert("Number");
+        // }
+
+        // ----------------OR---------------
+
+
+        // var x = prompt("Enter a character or number");
+        // if (x >= 65 && x <= 90) {
+        //     alert("Upper Case");
+        // } else if (x >= 97 && x <= 122) {
+        //     alert("Lower Case");
+        // } else {
+        //     alert("Number");
+        // }
+        // ----------------OR---------------
+
+        // var character = prompt("Enter a character or number");
+        // var character = character.charCodeAt();
+        // if (character >= 65 && character <= 90) {
+        //     alert("UpperCase!")
+        // } else if (character >= 97 && character <= 122) {
+        //     alert("LowerCase!")
+        // } else {
+        //     alert("Number!")
+        // }
+
+
+
+        //---------------Q2--------------------
+
+        // var x = +prompt(`First Number!`)
+        // var y = +prompt(`Second Number!`)
+        // if (x > y) {
+        //     alert(`Larger number: ${x}`)
+        // } else {
+        //     alert(`Larger number: ${y}`)
+
+        // }
+        //---------------Q3--------------------
+        // var x = +prompt(`Enter a Number!`)
+        // if (x > 0) {
+        //     alert(`Positive Number.`)
+        // }
+        // if (x < 0) {
+        //     alert(`Negative Number.`)
+        // } else {
+        //     alert(`Zero.`)
+
+        // }
+
+        //---------------Q4--------------------
+        // var x = prompt("Enter a variable!");
+        // if (x == "a") {
+        //     alert("Vowel!")
+        // }
+        // if (x == "e") {
+        //     alert("Vowel!")
+        // }
+        // if (x == "i") {
+        //     alert("Vowel!")
+        // }
+        // if (x == "o") {
+        //     alert("Vowel!")
+        // }
+        // if (x == "u") {
+        //     alert("Vowel!")
+        // } else {
+        //     alert("Consonant!")
+        // }
+
+        //---------------Q5--------------------
+
+        // var correctPassword = 123456;
+        // var password = +prompt("Enter your password.");
+        // if (password == correctPassword) {
+        //     alert("“Correct! The password you entered matches the original password” ")
+        // } else if (password != correctPassword) {
+        //     alert(" “Incorrect password”")
+        // } else {
+        //     alert("“ Please enter your password”")
+        // }
+
+        //---------------Q6--------------------
+
+
+        // var greeting;
+        // var hour = 13;
+        // if (hour < 18) {
+        //     alert("Good day");
+        // } else {
+        //     alert("Good evening");
+        // }
+        //---------------Q7--------------------
+        // var time = +prompt("Enter time in 24 hours format!");
+        // if (time == 100) {
+        //     alert("1am")
+        // } else if (time == 200) {
+        //     alert("12am")
+        // } else if (time == 300) {
+        //     alert("3am")
+        // } else if (time == 400) {
+        //     alert("4am")
+        // } else if (time == 500) {
+        //     alert("5am")
+        // } else if (time == 600) {
+        //     alert("6pm")
+        // } else if (time == 700) {
+        //     alert("7am")
+        // } else if (time == 800) {
+        //     alert("8am")
+        // } else if (time == 900) {
+        //     alert("9am")
+        // } else if (time == 1000) {
+        //     alert("10am")
+        // } else if (time == 1100) {
+        //     alert("11am")
+        // } else if (time == 1200) {
+        //     alert("12pm")
+        // }
+        // if (time == 1300) {
+        //     alert("1pm")
+        // } else if (time == 1400) {
+        //     alert("2pm")
+        // } else if (time == 1500) {
+        //     alert("3pm")
+        // } else if (time == 1600) {
+        //     alert("4pm")
+        // } else if (time == 1700) {
+        //     alert("5pm")
+        // } else if (time == 1800) {
+        //     alert("6pm")
+        // } else if (time == 1900) {
+        //     alert("7pm")
+        // } else if (time == 2000) {
+        //     alert("8pm")
+        // } else if (time == 2100) {
+        //     alert("9pm")
+        // } else if (time == 2200) {
+        //     alert("10pm")
+        // } else if (time == 2300) {
+        //     alert("11pm")
+        // } else if (time == 2400) {
+        //     alert("12am")
+        // }
+    </script>
+</body>
+
+</html>
+
+</html>
